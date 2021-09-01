@@ -1,0 +1,9 @@
+Martin 1
+Andres 2.547
+Esteban 5
+Carlos 5
+Pedro 10
+David 1.5
+Julio 3.45
+Mateo 9
+Morty 8.5

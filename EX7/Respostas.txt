@@ -1,0 +1,9 @@
+Lista 7, Ex. 12) Considere os dois vetores a seguir
+char str[][3] = {aa,bb,cc,dd};
+char str[] = {aa,bb,cc,dd};
+
+A)Eles são iguais Como recriar cada vetor utilizando alocação dinâmica (malloc) em vez da alocação estática
+RA) Não são iguais por isso é que não funciona a mesma função com os dois vetores. A primeira ocupa 12 bytes e a segunda é um ponteiro para Strings de 32 bytes de espaço. 
+
+Crie uma função que receba o vetor como parâmetro e imprima as quatro strings. Isso consegue ser realizado com apenas um protótipo ou são necessários protótipos diferentes para cada sintaxe de vetor Envie um arquivo texto (txt, doc, odt, etc.) com sua explicação.
+R.C) São necessários protótipos diferentes, porque não funciona na mesma função. Os dois vetores ocupam um espaço diferente na memória. 
